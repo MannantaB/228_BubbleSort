@@ -62,8 +62,14 @@ void display() {
     cout << "jumalahpass = " << n - 1 << endl; // menampilkan total angka dari elemen yang
     cout << endl;
 }
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    input(); //memanggil prosedur untuk menginput data
+    bubbleSortArray(); //memanggil prosedur bubblesort untuk proses mengurutkan angka
+    display(); //memanggil prosedur yang telah diurutkan
+    system("pause");
+
+    return 0;
 }
 
